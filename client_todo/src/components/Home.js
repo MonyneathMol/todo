@@ -52,12 +52,12 @@ export default function Home() {
 
     return (
         <div>
-            <div className='container mx-auto text-gr'>
+            <div className='container mx-auto text-gr mt-12'>
                 
                 <div className='flex flex-col mx-auto w-[40%] border bg-white h-96 p-4 rounded-lg'>
                     <div className='flex justify-between'>
                         <label className='font-bold text-2xl'>TODO LIST</label>
-                        <button className='px-8 py-2 bg-blue-500 text-white rounded-md'>Add</button>
+
                     </div>
                     <div className=' overflow-y-auto mt-3'>
                         <div className=' space-y-4'>
